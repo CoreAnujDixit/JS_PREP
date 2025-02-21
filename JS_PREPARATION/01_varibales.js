@@ -10,6 +10,6 @@ console.log(typeof(new_value));
 
 //conversion
 
-let isLoggedIn = -2;
-let isReallyIn = console.log(Boolean(isLoggedIn));
+let whyLoggedIn = -2;
+let isReallyIn = console.log(Boolean(whyLoggedIn));
  
