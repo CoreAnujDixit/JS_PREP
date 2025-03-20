@@ -15,9 +15,9 @@ const server = http.createServer((req, res)=>{
         res.end("ice tea is there")
     }
     else{ {
-            res.statusCode = 200;
+            res.statusCode = 404;
             res.setHeader('Content-type', 'text/plain')
-            res.end("Kaha aa gai?")
+            res.end("ERROR IS OCCURING")
         }
     }
 })
